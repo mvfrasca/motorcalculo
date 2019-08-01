@@ -1,0 +1,53 @@
+{
+	"idRoteiro": 1
+	"passos": [
+		{
+			"nrPasso": 1,
+			"expressao": "pcCorretagem = 32 / 100"
+		},
+		{
+			"nrPasso": 2,
+			"expressao": "pcRemuneracao = 2.35 / 100"
+		},
+		{
+			"nrPasso": 3,
+			"expressao": "pcProLabore = 0.65 / 100"
+		},
+		{
+			"nrPasso": 4,
+			"expressao": "pcIof = 0.38"
+		},
+		{
+			"nrPasso": 5,
+			"expressao": "pcTaxa = 0.063781"
+		},
+		{
+			"nrPasso": 6,
+			"expressao": "pcDesconto = 5 / 100"
+		},
+		{
+			"nrPasso": 7,
+			"expressao": "importancia_segurada = 10000"
+		},
+		{
+			"nrPasso": 8,
+			"expressao": "importancia_segurada = importancia_segurada * 3"
+		},
+		{
+			"nrPasso": 9,
+			"expressao": "premioNet = pcTaxa * importancia_segurada"
+		},
+		{
+			"nrPasso": 10,
+			"expressao": "premioTarifa = premioNet / 1-(pcCorretagem + pcRemuneracao + pcProLabore)"
+		},
+		{
+			"nrPasso": 11,
+			"expressao": "premioLiquido = premioTarifa - (premioTarifa * pcDesconto)"
+		},
+		{
+			"nrPasso": 12,
+			"expressao": "premioBruto = premioLiquido - (premioLiquido * pcIof)"
+		}
+	]
+}
