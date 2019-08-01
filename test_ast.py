@@ -17,3 +17,4 @@ elapsed_time = end_time - start_time
 elapsed_time = ((elapsed_time.seconds * 1000000) + elapsed_time.microseconds) // 1000
 
 print('\nQuantidade de cálculos: {0} \nInício: {1} \nFim: {2} \nTempo total: {3} milissegundos'.format(qtdCalculos, start_time.strftime('%H:%M:%S.%f'), end_time.strftime('%H:%M:%S.%f'), elapsed_time))
+

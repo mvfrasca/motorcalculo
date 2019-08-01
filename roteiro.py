@@ -1,9 +1,11 @@
+from helper import truncar
 
 pcCorretagem = 32 / 100
 pcRemuneracao = 2.35 / 100
 pcProLabore = 0.65 / 100
 pcIof = 0.38
 pcTaxa = 0.63781
+pcDesconto = truncar(5 / 100, 2)
 pcDesconto = 5 / 100
 importancia_segurada = 10000
 importancia_segurada = importancia_segurada * 3
