@@ -1,0 +1,36 @@
+{
+    "nrOferta": 20004,
+    "nrVersaoOferta": 1,
+    "pcComissao": 33.37,
+    "lsConjuntoCobertura": [
+        {
+            "nrCobertura": 23,
+            "vlImportanciaSegurada": 350000,
+            "pcTaxaNet": 0.07431,
+            "vlPremioNet": 26.01,
+            "vlComissao": 13.03,
+            "vlPremioLiquido": 39.04,
+            "pcIof": 0.38,
+            "vlIof": 0.15,
+            "vlPremioTotal": 39.19
+        },
+        {
+            "nrCobertura": 24,
+            "vlImportanciaSegurada": 150000,
+            "pcTaxaNet": 0.045059,
+            "vlPremioNet": 6.76,
+            "vlComissao": 3.39,
+            "vlPremioLiquido": 10.15,
+            "pcIof": 0.38,
+            "vlIof": 0.04,
+            "vlPremioTotal": 10.19
+        }
+    ],
+    "financeiro": {
+        "vlPremioNet": 32.77,
+        "vlComissao": 16.42,
+        "vlPremioLiquido": 49.19,
+        "vlIof": 0.19,
+        "vlPremioTotal": 49.38
+    }
+}

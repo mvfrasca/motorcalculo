@@ -1,0 +1,19 @@
+{
+    "nrOferta": 20004,
+    "nrVersaoOferta": 1,
+    "pcComissao": 33.37,
+    "lsConjuntoCobertura": [
+        {
+            "nrCobertura": 23,
+            "vlImportanciaSegurada": 350000,
+            "pcTaxaNet": 0.07431,
+            "pcIof": 0.38
+        },
+        {
+            "nrCobertura": 24,
+            "vlImportanciaSegurada": 150000,
+            "pcTaxaNet": 0.045059,
+            "pcIof": 0.38
+        }
+    ]
+}
