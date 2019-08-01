@@ -5,13 +5,13 @@
     "lsConjuntoCobertura": [
         {
             "nrCobertura": 23,
-            "vlImportanciaSegurada": 350000,
+            "vlImportanciaSegurada": 35000,
             "pcTaxaNet": 0.07431,
             "pcIof": 0.38
         },
         {
             "nrCobertura": 24,
-            "vlImportanciaSegurada": 150000,
+            "vlImportanciaSegurada": 15000,
             "pcTaxaNet": 0.045059,
             "pcIof": 0.38
         }
